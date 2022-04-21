@@ -11,7 +11,7 @@ import (
 
 var DB *gorm.DB
 var err error
-var DNS = "host=localhost user=postgres password=password dbname=task port=5432 sslmode=disable"
+var DNS = "host=localhost user=postgres password=admin dbname=Users port=5432 sslmode=disable"
 
 func Migration() {
 	DB, err = gorm.Open(postgres.Open(DNS), &gorm.Config{})

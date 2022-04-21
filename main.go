@@ -18,5 +18,5 @@ func main() {
 	app := fiber.New()
 	Routes(app)
 	log.Fatal(app.Listen(":3000"))
-	fmt.Println("kingina nyo")
+	fmt.Println("InstaCart")
 }
