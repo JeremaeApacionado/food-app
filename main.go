@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"food-app/database"
-	"food-app/route"
+	"fooddel-app/database"
+	"fooddel-app/route"
 
 	"github.com/gofiber/fiber/v2"
 )

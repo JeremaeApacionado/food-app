@@ -1,4 +1,4 @@
-module food-app
+module fooddel-app
 
 go 1.17
 

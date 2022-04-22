@@ -2,8 +2,8 @@ package route
 
 import (
 	"errors"
-	"food-app/database"
-	"food-app/model"
+	"fooddel-app/database"
+	"fooddel-app/model"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 	"log"
-	"food-app/model"
+	"fooddel-app/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
