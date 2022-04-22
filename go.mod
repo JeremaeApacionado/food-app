@@ -1,4 +1,4 @@
-module task
+module food-app
 
 go 1.17
 

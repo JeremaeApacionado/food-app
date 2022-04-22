@@ -2,8 +2,8 @@ package route
 
 import (
 	"regexp"
-	"task/database"
-	"task/model"
+	"food-app/database"
+	"food-app/model"
 
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/crypto/bcrypt"
@@ -64,7 +64,7 @@ func GetUsers(c *fiber.Ctx) error {
 	database.DB.Find(&user)
 	if len(user) == 0 {
 		return c.JSON(&fiber.Map{
-			"Message": "No user Exist!",
+			"Message": "User Does not Exist!",
 		})
 	}
 	return c.JSON(&fiber.Map{
